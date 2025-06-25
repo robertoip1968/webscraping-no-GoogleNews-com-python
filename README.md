@@ -27,6 +27,6 @@ Webscraping no Google News com  Python
     from google.colab import files
 
   ## Faz o download do arquivo Excel
-   df_to_save = df[['title', 'media', 'date', 'desc', 'link']]
-   df_to_save.to_csv('noticias_eleicoes_cuiaba.csv', index=False)
-   files.download('noticias_eleicoes_cuiaba.csv')
+    df_to_save = df[['title', 'media', 'date', 'desc', 'link']]
+    df_to_save.to_csv('noticias_eleicoes_cuiaba.csv', index=False) 
+    files.download('noticias_eleicoes_cuiaba.csv')
